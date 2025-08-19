@@ -1,7 +1,14 @@
 {
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --out-dir dist --watch"
+  },
   "devDependencies": {
     "@babel/cli": "^7.28.3",
     "@babel/core": "^7.28.3",
-    "@babel/preset-env": "^7.28.3"
+    "@babel/preset-env": "^7.28.3",
+    "core-js": "^3.45.0"
   }
 }
