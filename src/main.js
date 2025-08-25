@@ -1,3 +1,5 @@
+import "./styles/main.scss";
+
 $(document).ready(function () {
   $(document).on("click", ".todo-item", function () {
     const title = $(this).data("text");
